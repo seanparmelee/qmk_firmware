@@ -17,12 +17,12 @@
 #include QMK_KEYBOARD_H
 
 enum __layers {
-    WIN_B,
-    WIN_W,
-    WIN_FN,
     MAC_B,
     MAC_W,
-    MAC_FN
+    MAC_FN,
+    WIN_B,
+    WIN_W,
+    WIN_FN
 };
 
 #define KC_TASK LGUI(KC_TAB)
